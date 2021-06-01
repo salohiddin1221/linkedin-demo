@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+:root {
+    --link_blue: #0275b1;
+    --footer_back: #f7f9fb;
+    --back: #e5e5e5;
+    --text: #181818;
+    --green: #02b033;
+}
+
+.home {
+    padding: 30px 9%;
+    background: var(--back);
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.home1 {
+    position: relative;
+}
+
+.home2 {
+    margin-left: 30px;
+}
+
+.home_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.upload {
+    width: 30px;
+    justify-content: center;
+}
+
+.upload,
+.edit_profile,
+.line_dots {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit_profile {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.edit_profile img {
+    width: 15px;
+    height: 15px;
+}
+
+.edit {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.home_img img {
+    width: 100%;
+}
+
+.account_info {
+    padding: 20px;
+    background: white;
+    margin-top: -5px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.account_logo img {
+    margin-top: -50px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 18px;
+    line-height: 17px;
+    color: #181818;
+    font-weight: 700;
+}
+
+.address {
+    font-size: 12px;
+    line-height: 150%;
+    color: #181818;
+}
+
+.address img {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.row2 {
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+    margin: 10px 0;
+}
+
+.row3 {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.row3_1 {
+    background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.row3_2 {
+    background: #FFFFFF;
+    border: 1px solid #0275B1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0275B1;
+    padding: 8px 10px;
+}
+
+.dashboard {
+    padding: 20px 30px;
+    background: white;
+    border-radius: 4px;
+}
+
+.your_dashboard {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 20px;
+}
+
+.your_dashboard h3 {
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.your_dashboard a {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #0275B1;
+}
+
+.dashboard h1 {
+    font-size: 52px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #0275B1;
+}
+
+.dashboard p {
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+}
+
+.views,
+.posts,
+.searchs {
+    margin: 13px 0;
+}
+
+.select_profile {
+    margin: 30px 0;
+    display: flex;
+    justify-content: start;
+    border-radius: 0 4px 0 0;
+}
+
+.profile {
+    background: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    border-radius: 4px 4px 0px 0px;
+    width: 30%;
+    text-align: center;
+    padding: 21px;
+}
+
+.activity,
+.articles {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    width: 28%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 6px;
+}
+
+.about {
+    width: 100%;
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.about h2 {
+    font-size: 18px;
+    line-height: 17px;
+    color: #181818;
+}
+
+.about p {
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+    margin: 20px 0;
+}
+
+.account_info {
+    border-radius: 4px;
+}
+
+.about a {
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0275B1;
+    text-decoration: none;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.roject_items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.item {
+    margin: 5px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item h3 {
+    font-size: 14px;
+    line-height: 150%;
+    margin: 10px 0;
+    color: #181818;
+}
+
+.item p {
+    font-size: 10px;
+    line-height: 150%;
+
+    color: #181818c9;
+}
+
+.project h2 {
+    font-size: 18px;
+    line-height: 17px;
+    color: #181818;
+}
+
+.project h2 span {
+    font-size: 18px;
+    line-height: 17px;
+    margin-left: 10px;
+    color: #747474;
+}
+
+.project a {
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0275B1;
+}
+
+.visitors{
+    background: white;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 4px;
+}
+.visitor{
+    display: flex;
+    margin: 10px 0;
+    justify-content: start;
+    align-items: center;
+}
+.visitor img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.visitor_info{
+    width: 70%;
+}
+.visitor_info h3{
+    font-size: 14px;
+line-height: 13px;
+color: #181818;
+font-weight: 600;
+}
+.visitor_info p{
+    font-size: 12px;
+line-height: 150%;
+color: #181818;
+font-weight: 400;
+}
+.courses{
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+    display: block;
+}
+.courses_item{
+    display: flex;
+    margin: 10px 0;
+}
+.courses_item img{
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+}
+.item_info h3{
+    font-size: 14px;
+    line-height: 13px;
+    color: #181818;
+    font-weight: 600;
+}
+.item_info p{
+    font-size: 12px;
+    line-height: 150%;
+    color: #181818;
+    font-weight: 400;
+}
+.courses a{
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--link_blue);
+}
