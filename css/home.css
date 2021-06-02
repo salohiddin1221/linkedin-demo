@@ -482,3 +482,19 @@
     padding: 20px;
     border-radius: 4px;
 }
+
+@media screen and (max-width:1200px){
+    .home  {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:991px){
+   .home2{
+       display: none;
+   }
+   .home{
+       grid-template-columns: 100%;
+   }
+
+} 
