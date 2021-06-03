@@ -554,4 +554,7 @@
     .skills__div {
         width: 100%;
     }
+    .home {
+        padding: 20px 10px 0 10px;
+    }
 }
