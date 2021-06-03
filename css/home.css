@@ -461,40 +461,97 @@
     color: #181818ab;
     margin-left: 5px;
 }
+
 .experience__div--info p span:nth-child(2) {
     font-size: 11px;
     line-height: 150%;
     color: #181818ab;
 }
-.experience__div--info p span:nth-child(3){
+
+.experience__div--info p span:nth-child(3) {
     font-size: 11px;
     line-height: 150%;
     color: #181818ab;
-    
+
 }
-.experience__div--info p span:nth-child(4){
+
+.experience__div--info p span:nth-child(4) {
     color: var(--link_blue);
-    margin-left:5px ;
+    margin-left: 5px;
 }
-.education{
+
+.education {
     background: #FFFFFF;
     margin: 20px 0;
     padding: 20px;
     border-radius: 4px;
 }
 
-@media screen and (max-width:1200px){
-    .home  {
+@media screen and (max-width:1200px) {
+    .home {
         padding: 30px;
     }
 }
 
-@media screen and (max-width:991px){
-   .home2{
-       display: none;
-   }
-   .home{
-       grid-template-columns: 100%;
-   }
+@media screen and (max-width:991px) {
+    .home2 {
+        display: none;
+    }
 
-} 
+    .home {
+        grid-template-columns: 100%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .edit {
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+    }
+
+    .account_logo img {
+        margin-top: -35px;
+        margin-left: -10px;
+        width: 150px;
+    }
+
+    .profile,
+    .activity,
+    .articles {
+        width: 33%;
+    }
+
+    .skills__users {
+        flex-wrap: wrap;
+    }
+
+    .skills__div {
+        width: 49%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .edit {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .edit_profile p {
+        font-size: 14px;
+    }
+
+    .account_info {
+        grid-template-columns: 100%;
+    }
+
+    .roject_items {
+        grid-template-columns: 100%;
+    }
+    .skills__div {
+        width: 100%;
+    }
+}
